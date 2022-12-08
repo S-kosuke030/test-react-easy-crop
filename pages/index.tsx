@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import { useCallback, useEffect, useState } from 'react';
 import { Area, MediaSize } from 'react-easy-crop';
 import CropperModal from './CropperModal';
-import getCroppedImg from './getCroppedImg';
+import getCroppedImg from '../utils/getCroppedImg';
 import { saveAs } from 'file-saver';
 
 export const ASPECT_RATIO = 1 / 1;
